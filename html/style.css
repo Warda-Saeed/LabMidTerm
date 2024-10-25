@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    min-width: 785 px;
+}
+
+.background{
+    background: white;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 60%;
+    border: 50% solid black;
+    border-radius: 50%;
+
+}
+.nav-list{
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 30px;
+}
+
+.btn{
+    padding:8px 20px ;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.First-Section{
+   background-image: url(../img/bg.jpeg);
+   height: 200px;
+}
+
+#main-program {
+    background-color: #f5f5f5;
+    padding: 40px;
+  }
+  
+  .program-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .program-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .program-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .program-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .button {
+    display: block;
+    background-color: #16a085; /* Green color for eco-friendly theme */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .program-container {
+      flex-direction: row;
+    }
+  }
+
+  #main-program{
+    background-image: url(../img/bd\ section2.png);
+    height: 100px;
+  }
